@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Form pengisian suara</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.gstatic.com" rel="preconnect">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/quill/quill.snow.css" rel="stylesheet">
+  <link href="assets/vendor/quill/quill.bubble.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/simple-datatables/style.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+  
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="header fixed-top d-flex align-items-center">
+
+    <div class="d-flex align-items-center justify-content-between">
+      <a href="index.html" class="logo d-flex align-items-center">
+        <img src="assets/img/logo.png" alt="">
+        <span class="d-none d-lg-block">MONITOR PILEG</span>
+      </a>
+      <i class="bi bi-list toggle-sidebar-btn"></i>
+    </div><!-- End Logo -->
+
+	<div style="margin-left: auto; margin-right: 25px; line-height: 1.5;">
+	  <a href="pages-login.html" style="font-size: 30px; text-align: right; display: block; color: navy;">
+		<h2 style="margin: 0;"><b><span>Keluar</span></b></h2>
+	  </a>
+	</div>
+    <!-- End keluar -->
+
+      </ul>
+    </nav><!-- End Icons Navigation -->
+
+  </header><!-- End Header -->
+
+  <!-- ======= Sidebar ======= -->
+  <aside id="sidebar" class="sidebar">
+
+    <ul class="sidebar-nav" id="sidebar-nav">
+	  
+	  <li class="nav-item">
+        <a class="nav-link" href="pages-blank.html">
+          <i class="bi bi-file-earmark"></i>
+          <span>Pengisian Suara</span>
+        </a>
+      </li><!-- End Blank Page Nav -->
+	  
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="tables-data.html">
+          <i class="bi bi-graph-up"></i>
+          <span>Data Keseluruhan</span>
+        </a>
+      </li><!-- End data kelurahan Nav -->
+	  
+      		<li class="nav-item">
+		  <a class="nav-link collapsed" href="tables-data-CILEUNYI.html">
+			<i class="bi bi-hdd-stack"></i>
+			<span>Data CILEUNYI</span>
+		  </a>
+		</li><!-- End data CILEUNYI Nav -->
+
+		<li class="nav-item">
+		  <a class="nav-link collapsed" href="tables-data-CIMENYAN.html">
+			<i class="bi bi-hdd-stack"></i>
+			<span>Data CIMENYAN</span>
+		  </a>
+		</li><!-- End data CIMENYAN Nav -->
+
+		<li class="nav-item">
+		  <a class="nav-link collapsed" href="tables-data-CILENGKRANG.html">
+			<i class="bi bi-hdd-stack"></i>
+			<span>Data CILENGKRANG</span>
+		  </a>
+		</li><!-- End data CILENGKRANG Nav -->
+
+		<li class="nav-item">
+		  <a class="nav-link collapsed" href="tables-data-BOJONGSOANG.html">
+			<i class="bi bi-hdd-stack"></i>
+			<span>Data BOJONGSOANG</span>
+		  </a>
+		</li><!-- End data BOJONGSOANG Nav -->
+
+		<li class="nav-item">
+		  <a class="nav-link collapsed" href="tables-data-MARGAHAYU.html">
+			<i class="bi bi-hdd-stack"></i>
+			<span>Data MARGAHAYU</span>
+		  </a>
+		</li><!-- End data MARGAHAYU Nav -->
+
+		<li class="nav-item">
+		  <a class="nav-link collapsed" href="tables-data-MARGAASIH.html">
+			<i class="bi bi-hdd-stack"></i>
+			<span>Data MARGAASIH</span>
+		  </a>
+		</li><!-- End data MARGAASIH Nav -->
+
+		<li class="nav-item">
+		  <a class="nav-link collapsed" href="tables-data-KATAPANG.html">
+			<i class="bi bi-hdd-stack"></i>
+			<span>Data KATAPANG</span>
+		  </a>
+		</li><!-- End data KATAPANG Nav -->
+
+		<li class="nav-item">
+		  <a class="nav-link collapsed" href="tables-data-DAYEUHKOLOT.html">
+			<i class="bi bi-hdd-stack"></i>
+			<span>Data DAYEUHKOLOT</span>
+		  </a>
+		</li><!-- End data DAYEUHKOLOT Nav -->
+
+		<li class="nav-item">
+		  <a class="nav-link collapsed" href="tables-data-BANJARAN.html">
+			<i class="bi bi-hdd-stack"></i>
+			<span>Data BANJARAN</span>
+		  </a>
+		</li><!-- End data BANJARAN Nav -->
+
+		<li class="nav-item">
+		  <a class="nav-link collapsed" href="tables-data-PAMEUNGPEUK.html">
+			<i class="bi bi-hdd-stack"></i>
+			<span>Data PAMEUNGPEUK</span>
+		  </a>
+		</li><!-- End data PAMEUNGPEUK Nav -->
+
+		<li class="nav-item">
+		  <a class="nav-link collapsed" href="tables-data-PANGALENGAN.html">
+			<i class="bi bi-hdd-stack"></i>
+			<span>Data PANGALENGAN</span>
+		  </a>
+		</li><!-- End data PANGALENGAN Nav -->
+
+		<li class="nav-item">
+		  <a class="nav-link collapsed" href="tables-data-ARJASARI.html">
+			<i class="bi bi-hdd-stack"></i>
+			<span>Data ARJASARI</span>
+		  </a>
+		</li><!-- End data ARJASARI Nav -->
+
+		<li class="nav-item">
+		  <a class="nav-link collapsed" href="tables-data-CIMAUNG.html">
+			<i class="bi bi-hdd-stack"></i>
+			<span>Data CIMAUNG</span>
+		  </a>
+		</li><!-- End data CIMAUNG Nav -->
+
+		<li class="nav-item">
+		  <a class="nav-link collapsed" href="tables-data-CICALENGKA.html">
+			<i class="bi bi-hdd-stack"></i>
+			<span>Data CICALENGKA</span>
+		  </a>
+		</li><!-- End data CICALENGKA Nav -->
+
+		<li class="nav-item">
+		  <a class="nav-link collapsed" href="tables-data-NAGREG.html">
+			<i class="bi bi-hdd-stack"></i>
+			<span>Data NAGREG</span>
+		  </a>
+		</li><!-- End data NAGREG Nav -->
+
+		<li class="nav-item">
+		  <a class="nav-link collapsed" href="tables-data-CIKANCUNG.html">
+			<i class="bi bi-hdd-stack"></i>
+			<span>Data CIKANCUNG</span>
+		  </a>
+		</li><!-- End data CIKANCUNG Nav -->
+
+		<li class="nav-item">
+		  <a class="nav-link collapsed" href="tables-data-RANCAEKEK.html">
+			<i class="bi bi-hdd-stack">></i>
+			<span>Data RANCAEKEK</span>
+		  </a>
+		</li><!-- End data RANCAEKEK Nav -->
+
+		<li class="nav-item">
+		  <a class="nav-link collapsed" href="tables-data-CIPARAY.html">
+			<i class="bi bi-hdd-stack"></i>
+			<span>Data CIPARAY</span>
+		  </a>
+		</li><!-- End data CIPARAY Nav -->
+
+		<li class="nav-item">
+		  <a class="nav-link collapsed" href="tables-data-PACET.html">
+			<i class="bi bi-hdd-stack"></i>
+			<span>Data PACET</span>
+		  </a>
+		</li><!-- End data PACET Nav -->
+
+		<li class="nav-item">
+		  <a class="nav-link collapsed" href="tables-data-KERTASARI.html">
+			<i class="bi bi-hdd-stack"></i>
+			<span>Data KERTASARI</span>
+		  </a>
+		</li><!-- End data KERTASARI Nav -->
+
+		<li class="nav-item">
+		  <a class="nav-link collapsed" href="tables-data-BALEENDAH.html">
+			<i class="bi bi-hdd-stack"></i>
+			<span>Data BALEENDAH</span>
+		  </a>
+		</li><!-- End data BALEENDAH Nav -->
+
+		<li class="nav-item">
+		  <a class="nav-link collapsed" href="tables-data-MAJALAYA.html">
+			<i class="bi bi-hdd-stack"></i>
+			<span>Data MAJALAYA</span>
+		  </a>
+		</li><!-- End data MAJALAYA Nav -->
+
+		<li class="nav-item">
+		  <a class="nav-link collapsed" href="tables-data-SOLOKANJERUK.html">
+			<i class="bi bi-hdd-stack"></i>
+			<span>Data SOLOKANJERUK</span>
+		  </a>
+		</li><!-- End data SOLOKANJERUK Nav -->
+
+		<li class="nav-item">
+		  <a class="nav-link collapsed" href="tables-data-PASEH.html">
+			<i class="bi bi-hdd-stack"></i>
+			<span>Data PASEH</span>
+		  </a>
+		</li><!-- End data PASEH Nav -->
+
+		<li class="nav-item">
+		  <a class="nav-link collapsed" href="tables-data-IBUN.html">
+			<i class="bi bi-hdd-stack"></i>
+			<span>Data IBUN</span>
+		  </a>
+		</li><!-- End data IBUN Nav -->
+
+		<li class="nav-item">
+		  <a class="nav-link collapsed" href="tables-data-SOREANG.html">
+			<i class="bi bi-hdd-stack"></i>
+			<span>Data SOREANG</span>
+		  </a>
+		</li><!-- End data SOREANG Nav -->
+
+		<li class="nav-item">
+		  <a class="nav-link collapsed" href="tables-data-PASIRJAMBU.html">
+			<i class="bi bi-hdd-stack"></i>
+			<span>Data PASIRJAMBU</span>
+		  </a>
+		</li><!-- End data PASIRJAMBU Nav -->
+
+		<li class="nav-item">
+		  <a class="nav-link collapsed" href="tables-data-CIWIDEY.html">
+			<i class="bi bi-hdd-stack"></i>
+			<span>Data CIWIDEY</span>
+		  </a>
+		</li><!-- End data CIWIDEY Nav -->
+
+		<li class="nav-item">
+		  <a class="nav-link collapsed" href="tables-data-RANCABALI.html">
+			<i class="bi bi-hdd-stack"></i>
+			<span>Data RANCABALI</span>
+		  </a>
+		</li><!-- End data RANCABALI Nav -->
+
+		<li class="nav-item">
+		  <a class="nav-link collapsed" href="tables-data-CANGKUANG.html">
+			<i class="bi bi-hdd-stack"></i>
+			<span>Data CANGKUANG</span>
+		  </a>
+		</li><!-- End data CANGKUANG Nav -->
+
+		<li class="nav-item">
+		  <a class="nav-link collapsed" href="tables-data-KUTAWARINGIN.html">
+			<i class="bi bi-hdd-stack"></i>
+			<span>Data KUTAWARINGIN</span>
+		  </a>
+		</li><!-- End data KUTAWARINGIN Nav -->
+
+
+
+
+
+
+    </ul>
+
+  </aside><!-- End Sidebar-->
+
+
+  <main id="main" class="main">
+    <div class="pagetitle">
+      <h1>Pengisian Suara</h1>
+      <nav>
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="index.html">Beranda</a></li>
+          <li class="breadcrumb-item active">Pengisian Suara</li>
+        </ol>
+      </nav>
+    </div><!-- End Page Title -->
+
+    <section class="section">
+      <div class="row">
+        <div class="col-lg-12">
+
+         <div class="card">
+            <div class="card-body">
+			<h1 class="card-title" style="font-size: 30px;"><center>Pengisian Suara<center></h1>
+
+              <!-- form pegisian suara -->
+              <form class="row g-3">
+                <div class="col-md-12">
+                  <label for="inputName5" class="form-label">Nama</label>
+                  <input type="text" class="form-control" id="inputName5">
+                </div>
+  
+				 <div class="col-md-12">
+					<label for="kategori" class="form-label">Kecamatan</label>
+					<select id="kategori" class="form-select" onchange="populateSubCategory()">
+						<option selected>Pilih...</option>
+						<option value="buah">Buah</option>
+						<option value="hewan">Hewan</option>
+					</select>
+				</div>
+
+				<div class="col-md-12">
+					<label for="subKategori" class="form-label">Kelurahan</label>
+					<select id="subKategori" class="form-select">
+						<option selected>Pilih...</option>
+					</select>
+				</div>
+
+				<script>
+					function populateSubCategory() {
+						var kategori = document.getElementById('kategori');
+						var subKategori = document.getElementById('subKategori');
+
+						// Kosongkan dropdown subkategori saat mengganti kategori
+						subKategori.innerHTML = '<option selected>Pilih...</option>';
+
+						// Tambahkan opsi berdasarkan kategori yang dipilih
+						if (kategori.value === 'buah') {
+							addOption(subKategori, 'Pisang');
+							addOption(subKategori, 'Semangka');
+						} else if (kategori.value === 'hewan') {
+							addOption(subKategori, 'Monyet');
+							addOption(subKategori, 'Kucing');
+						}
+					}
+
+					function addOption(selectElement, optionText) {
+						var option = document.createElement('option');
+						option.text = optionText;
+						selectElement.add(option);
+					}
+				</script>
+
+				<h3 style="margin-top: 20px; margin-bottom: 20px;"><b><center>Masukan Perolehan Suara</center></b></h3>
+
+
+				<div class="container">
+
+				  <div class="row">
+					<!-- Partai Kebangkitan Bangsa -->
+					<div class="col-md-3">
+					  <label for="inputPKB" class="form-label" style="font-size: 12px;">Partai Kebangkitan Bangsa</label>
+					  <div class="input-group">
+						<img src="https://goodkind-bucket04939-dev.s3.ap-southeast-1.amazonaws.com/public/assets/constant/partai/13/PBB.svg" alt="PBB (Partai Bulan Bintang)" style="width: 40px; margin-right: 10px;" />
+						<input type="text" class="form-control" id="inputPKB">
+					  </div>
+					</div>
+
+					<!-- Partai GERINDRA -->
+					<div class="col-md-3">
+					  <label for="inputGERINDRA" class="form-label" style="font-size: 12px;">Partai Gerakan Indonesia Raya</label>
+					  <div class="input-group">
+						<img src="https://goodkind-bucket04939-dev.s3.ap-southeast-1.amazonaws.com/public/assets/constant/partai/2/Gerindra.svg" alt="GERINDRA (Partai Gerakan Indonesia Raya)" style="width: 40px; margin-right: 10px;" />
+						<input type="text" class="form-control" id="inputGERINDRA">
+					  </div>
+					</div>
+
+					<!-- Partai PDI -->
+					<div class="col-md-3">
+					  <label for="inputPDI" class="form-label" style="font-size: 11px;">Partai Demokrasi Indonesia Perjuangan</label>
+					  <div class="input-group">
+						<img src="https://goodkind-bucket04939-dev.s3.ap-southeast-1.amazonaws.com/public/assets/constant/partai/3/PDIP.svg" alt="PDI (Partai Demokrasi Indonesia Perjuangan)" style="width: 40px; margin-right: 10px;" />
+						<input type="text" class="form-control" id="inputPDI">
+					  </div>
+					</div>
+
+					<!-- Partai GOLKAR -->
+					<div class="col-md-3">
+					  <label for="inputGOLKAR" class="form-label" style="font-size: 12px;">Partai Golongan Karya</label>
+					  <div class="input-group">
+						<img src="https://goodkind-bucket04939-dev.s3.ap-southeast-1.amazonaws.com/public/assets/constant/PARTY/golkar/party%3Dgolkar.png" alt="GOLKAR (Partai Golongan Karya)" style="width: 40px; margin-right: 10px;" />
+						<input type="text" class="form-control" id="inputGOLKAR">
+					  </div>
+					</div>
+				  </div>
+
+				  <div class="row">
+					<!-- Partai NASDEM -->
+					<div class="col-md-3">
+					  <label for="inputNASDEM" class="form-label" style="font-size: 12px;">Partai Nasional Demokrat</label>
+					  <div class="input-group">
+						<img src="https://goodkind-bucket04939-dev.s3.ap-southeast-1.amazonaws.com/public/assets/constant/partai/5/Nasdem.svg" alt="NASDEM (Partai Nasional Demokrat)" style="width: 40px; margin-right: 10px;" />
+						<input type="text" class="form-control" id="inputNASDEM">
+					  </div>
+					</div>
+
+					<!-- Partai Buruh -->
+					<div class="col-md-3">
+					  <label for="inputBuruh" class="form-label" style="font-size: 12px;">Partai Buruh</label>
+					  <div class="input-group">
+						<img src="https://goodkind-bucket04939-dev.s3.ap-southeast-1.amazonaws.com/public/assets/constant/partai/6/Buruh.svg" alt="Partai Buruh" style="width: 40px; margin-right: 10px;" />
+						<input type="text" class="form-control" id="inputBuruh">
+					  </div>
+					</div>
+
+					<!-- Partai GELORA -->
+					<div class="col-md-3">
+					  <label for="inputGelora" class="form-label" style="font-size: 12px;">Gelombang Rakyat Indonesia</label>
+					  <div class="input-group">
+						<img src="https://goodkind-bucket04939-dev.s3.ap-southeast-1.amazonaws.com/public/assets/constant/partai/7/Gelora.svg" alt="GELORA (Gelombang Rakyat Indonesia)" style="width: 40px; margin-right: 10px;" />
+						<input type="text" class="form-control" id="inputGelora">
+					  </div>
+					</div>
+
+					<!-- Partai PKS -->
+					<div class="col-md-3">
+					  <label for="inputPKS" class="form-label" style="font-size: 12px;">Partai Keadilan Sejahtera</label>
+					  <div class="input-group">
+						<img src="https://goodkind-bucket04939-dev.s3.ap-southeast-1.amazonaws.com/public/assets/constant/partai/8/PKS.svg" alt="PKS (Partai Keadilan Sejahtera)" style="width: 40px; margin-right: 10px;" />
+						<input type="text" class="form-control" id="inputPKS">
+					  </div>
+					</div>
+				  </div>
+
+				  <div class="row">
+					<!-- Partai Kebangkitan Nusantara -->
+					<div class="col-md-3">
+					  <label for="inputPKN" class="form-label" style="font-size: 12px;">Partai Kebangkitan Nusantara</label>
+					  <div class="input-group">
+						<img src="https://goodkind-bucket04939-dev.s3.ap-southeast-1.amazonaws.com/public/assets/constant/partai/9/PKN.svg" alt="PKN (Partai Kebangkitan Nusantara)" style="width: 40px; margin-right: 10px;" />
+						<input type="text" class="form-control" id="inputPKN">
+					  </div>
+					</div>
+
+					<!-- Partai HANURA -->
+					<div class="col-md-3">
+					  <label for="inputHANURA" class="form-label" style="font-size: 12px;">Partai Hati Nurani Rakyat</label>
+					  <div class="input-group">
+						<img src="https://goodkind-bucket04939-dev.s3.ap-southeast-1.amazonaws.com/public/assets/constant/partai/10/Hanura.svg" alt="HANURA (Partai Hati Nurani Rakyat)" style="width: 40px; margin-right: 10px;" />
+						<input type="text" class="form-control" id="inputHANURA">
+					  </div>
+					</div>
+
+					<!-- Partai PAN -->
+					<div class="col-md-3">
+					  <label for="inputPAN" class="form-label" style="font-size: 12px;">Partai Amanat Nasional</label>
+					  <div class="input-group">
+						<img src="https://goodkind-bucket04939-dev.s3.ap-southeast-1.amazonaws.com/public/assets/constant/partai/12/PAN.svg" alt="PAN (Partai Amanat Nasional)" style="width: 40px; margin-right: 10px;" />
+						<input type="text" class="form-control" id="inputPAN">
+					  </div>
+					</div>
+
+					<!-- Partai PBB -->
+					<div class="col-md-3">
+					  <label for="inputPBB" class="form-label" style="font-size: 12px;">Partai Bulan Bintang</label>
+					  <div class="input-group">
+						<img src="https://goodkind-bucket04939-dev.s3.ap-southeast-1.amazonaws.com/public/assets/constant/partai/13/PBB.svg" alt="PBB (Partai Bulan Bintang)" style="width: 40px; margin-right: 10px;" />
+						<input type="text" class="form-control" id="inputPBB">
+					  </div>
+					</div>
+				  </div>
+
+				  <div class="row">
+					<!-- Partai DEMOKRAT -->
+					<div class="col-md-3">
+					  <label for="inputDEMOKRAT" class="form-label" style="font-size: 12px;">Partai Demokrat</label>
+					  <div class="input-group">
+						<img src="https://goodkind-bucket04939-dev.s3.ap-southeast-1.amazonaws.com/public/assets/constant/partai/14/Demokrat.svg" alt="DEMOKRAT (Partai Demokrat)" style="width: 40px; margin-right: 10px;" />
+						<input type="text" class="form-control" id="inputDEMOKRAT">
+					  </div>
+					</div>
+
+					<!-- Partai PSI -->
+					<div class="col-md-3">
+					  <label for="inputPSI" class="form-label" style="font-size: 12px;">Partai Solidaritas Indonesia</label>
+					  <div class="input-group">
+						<img src="https://goodkind-bucket04939-dev.s3.ap-southeast-1.amazonaws.com/public/assets/constant/partai/15/PSI.svg" alt="PSI (Partai Solidaritas Indonesia)" style="width: 40px; margin-right: 10px;" />
+						<input type="text" class="form-control" id="inputPSI">
+					  </div>
+					</div>
+
+					<!-- Partai PERINDO -->
+					<div class="col-md-3">
+					  <label for="inputPERINDO" class="form-label" style="font-size: 12px;">Partai Persatuan Indonesia</label>
+					  <div class="input-group">
+						<img src="https://goodkind-bucket04939-dev.s3.ap-southeast-1.amazonaws.com/public/assets/constant/partai/16/Perindo.svg" alt="PERINDO (Partai Persatuan Indonesia)" style="width: 40px; margin-right: 10px;" />
+						<input type="text" class="form-control" id="inputPERINDO">
+					  </div>
+					</div>
+
+					<!-- Partai PPP -->
+					<div class="col-md-3">
+					  <label for="inputPPP" class="form-label" style="font-size: 12px;">Partai Persatuan Pembangunan</label>
+					  <div class="input-group">
+						<img src="https://goodkind-bucket04939-dev.s3.ap-southeast-1.amazonaws.com/public/assets/constant/partai/17/PPP.svg" alt="PPP (Partai Persatuan Pembangunan)" style="width: 40px; margin-right: 10px;" />
+						<input type="text" class="form-control" id="inputPPP">
+					  </div>
+					</div>
+
+					<!-- Partai Ummat -->
+					<div class="col-md-3">
+					  <label for="inputUmmat" class="form-label" style="font-size: 12px;">Partai Ummat</label>
+					  <div class="input-group">
+						<img src="https://goodkind-bucket04939-dev.s3.ap-southeast-1.amazonaws.com/public/assets/constant/partai/24/Ummat.svg" alt="Partai Ummat" style="width: 40px; margin-right: 10px;" />
+						<input type="text" class="form-control" id="inputUmmat">
+					  </div>
+					</div>
+				  </div>
+
+				</div>
+  
+                <div class="col-12">
+                  <label for="inputAddress2" class="form-label">Jumlah Suara Tidak Sah</label>
+                  <input type="text" class="form-control" id="inputTidaksah">
+                </div>
+                <div class="text-center">
+                  <button type="submit" class="btn btn-primary">Submit</button>
+                </div>
+              </form><!-- End Multi Columns Form -->
+
+            </div>
+          </div>
+
+        </div>
+
+           <!-- Riwayat -->
+            <div class="col-12">
+              <div class="card recent-sales overflow-auto">
+
+
+
+                <div class="card-body">
+                  <h5 class="card-title" style="font-size: 30px;">Riwayat</h5>
+
+                  <table class="table table-borderless datatable">
+                    <thead>
+                      <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Nama</th>
+                        <th scope="col">Waktu</th>
+                        <th scope="col">Status</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row"><a href="#">#2457</a></th>
+                        <td>Brandon Jacob</td>
+                        <td><a href="#" class="text-primary">11:05:12</a></td>
+                        <td><span class="badge bg-success">Berhasil Dikirim</span></td>
+                      </tr>
+                      <tr>
+                        <th scope="row"><a href="#">#2147</a></th>
+                        <td>Bridie Kessler</td>
+                        <td><a href="#" class="text-primary">21:23:12</a></td>
+                        <td><span class="badge bg-warning">Melebihi Waktu</span></td>
+                      </tr>
+                      <tr>
+                        <th scope="row"><a href="#">#2644</a></th>
+                        <td>Angus Grady</td>
+                        <td><a href="#" class="text-primar">22:23:12</a></td>
+                        <td><span class="badge bg-danger">Melebihi Waktu</span></td>
+                      </tr>
+                      <tr>
+                        <th scope="row"><a href="#">#2644</a></th>
+                        <td>Raheem Lehner</td>
+                        <td><a href="#" class="text-primary">12:14:89</a></td>
+                        <td><span class="badge bg-success">Berhasil Dikirim</span></td>
+                      </tr>
+                    </tbody>
+                  </table>
+
+                </div>
+
+              </div>
+            </div><!-- Riwayat-->
+
+        </div>
+    </section>
+
+  </main><!-- End #main -->
+
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/apexcharts/apexcharts.min.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/chart.js/chart.umd.js"></script>
+  <script src="assets/vendor/echarts/echarts.min.js"></script>
+  <script src="assets/vendor/quill/quill.min.js"></script>
+  <script src="assets/vendor/simple-datatables/simple-datatables.js"></script>
+  <script src="assets/vendor/tinymce/tinymce.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
