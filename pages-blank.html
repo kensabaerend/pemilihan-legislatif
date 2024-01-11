@@ -326,12 +326,41 @@
                   <input type="text" class="form-control" id="inputName5">
                 </div>
   
-				 <div class="col-md-12">
+			<div class="col-md-12">
 					<label for="kategori" class="form-label">Kecamatan</label>
 					<select id="kategori" class="form-select" onchange="populateSubCategory()">
 						<option selected>Pilih...</option>
-						<option value="buah">Buah</option>
-						<option value="hewan">Hewan</option>
+							<option value="CILEUNYI">CILEUNYI</option>
+							<option value="CIMENYAN">CIMENYAN</option>
+							<option value="CILENGKRANG">CILENGKRANG</option>
+							<option value="BOJONGSOANG">BOJONGSOANG</option>
+							<option value="MARGAHAYU">MARGAHAYU</option>
+							<option value="MARGAASIH">MARGAASIH</option>
+							<option value="KATAPANG">KATAPANG</option>
+							<option value="DAYEUHKOLOT">DAYEUHKOLOT</option>
+							<option value="BANJARAN">BANJARAN</option>
+							<option value="PAMEUNGPEUK">PAMEUNGPEUK</option>
+							<option value="PANGALENGAN">PANGALENGAN</option>
+							<option value="ARJASARI">ARJASARI</option>
+							<option value="CIMAUNG">CIMAUNG</option>
+							<option value="CICALENGKA">CICALENGKA</option>
+							<option value="NAGREG">NAGREG</option>
+							<option value="CIKANCUNG">CIKANCUNG</option>
+							<option value="RANCAEKEK">RANCAEKEK</option>
+							<option value="CIPARAY">CIPARAY</option>
+							<option value="PACET">PACET</option>
+							<option value="KERTASARI">KERTASARI</option>
+							<option value="BALEENDAH">BALEENDAH</option>
+							<option value="MAJALAYA">MAJALAYA</option>
+							<option value="SOLOKANJERUK">SOLOKANJERUK</option>
+							<option value="PASEH">PASEH</option>
+							<option value="IBUN">IBUN</option>
+							<option value="SOREANG">SOREANG</option>
+							<option value="PASIRJAMBU">PASIRJAMBU</option>
+							<option value="CIWIDEY">CIWIDEY</option>
+							<option value="RANCABALI">RANCABALI</option>
+							<option value="CANGKUANG">CANGKUANG</option>
+							<option value="KUTAWARINGIN">KUTAWARINGIN</option>
 					</select>
 				</div>
 
@@ -351,13 +380,320 @@
 						subKategori.innerHTML = '<option selected>Pilih...</option>';
 
 						// Tambahkan opsi berdasarkan kategori yang dipilih
-						if (kategori.value === 'buah') {
-							addOption(subKategori, 'Pisang');
-							addOption(subKategori, 'Semangka');
-						} else if (kategori.value === 'hewan') {
-							addOption(subKategori, 'Monyet');
-							addOption(subKategori, 'Kucing');
+						if (kategori.value === 'CILEUNYI') {
+							addOption(subKategori, 'Cibiru Hilir');
+							addOption(subKategori, 'Cibiru Wetan');
+							addOption(subKategori, 'Cileunyi Kulon');
+							addOption(subKategori, 'Cileunyi Wetan');
+							addOption(subKategori, 'Cimekar');
+							addOption(subKategori, 'Cinunuk');
+						} else if (kategori.value === 'CIMENYAN') {
+							addOption(subKategori, 'Ciburial');
+							addOption(subKategori, 'Cikadut');
+							addOption(subKategori, 'Cimenyan');
+							addOption(subKategori, 'Mandalamekar');
+							addOption(subKategori, 'Mekarmanik');
+							addOption(subKategori, 'Mekarsaluyu');
+							addOption(subKategori, 'Sindanglaya');
+							addOption(subKategori, 'Cibeunying');
+							addOption(subKategori, 'Padasuka');
+						} else if (kategori.value === 'CILENGKRANG') {
+							addOption(subKategori, 'Cilengkrang');
+							addOption(subKategori, 'Cipanjalu');
+							addOption(subKategori, 'Ciporeat');
+							addOption(subKategori, 'Girimekar');
+							addOption(subKategori, 'Jatiendah');
+							addOption(subKategori, 'Melatiwangi');
+						} else if (kategori.value === 'BOJONGSOANG') {
+							addOption(subKategori, 'Bojongsari');
+							addOption(subKategori, 'Bojongsoang');
+							addOption(subKategori, 'Buahbatu');
+							addOption(subKategori, 'Cipagalo');
+							addOption(subKategori, 'Lengkong');
+							addOption(subKategori, 'Tegalluar');
+						} else if (kategori.value === 'MARGAHAYU') {
+							addOption(subKategori, 'Margahayu Selatan');
+							addOption(subKategori, 'Margahayu Tengah');
+							addOption(subKategori, 'Sayati');
+							addOption(subKategori, 'Sukamenak');
+							addOption(subKategori, 'Sulaeman');
+						} else if (kategori.value === 'MARGAASIH') {
+							addOption(subKategori, 'Cigondewah Hilir');
+							addOption(subKategori, 'Lagadar');
+							addOption(subKategori, 'Margaasih');
+							addOption(subKategori, 'Mekar Rahayu');
+							addOption(subKategori, 'Nanjung');
+							addOption(subKategori, 'Rahayu');
+						} else if (kategori.value === 'KATAPANG') {
+							addOption(subKategori, 'Banyusari');
+							addOption(subKategori, 'Cilampeni');
+							addOption(subKategori, 'Gandasari');
+							addOption(subKategori, 'Katapang');
+							addOption(subKategori, 'Pangauban');
+							addOption(subKategori, 'Sangkanhurip');
+							addOption(subKategori, 'Sukamukti');
 						}
+						else if (kategori.value === 'DAYEUHKOLOT') {
+							addOption(subKategori, 'Cangkuang Kulon');
+							addOption(subKategori, 'Cangkuang Wetan');
+							addOption(subKategori, 'Citeureup');
+							addOption(subKategori, 'Dayeuhkolot');
+							addOption(subKategori, 'Sukapura');
+							addOption(subKategori, 'Pasawahan');
+						} else if (kategori.value === 'BANJARAN') {
+							addOption(subKategori, 'Banjaran');
+							addOption(subKategori, 'Banjaran Wetan');
+							addOption(subKategori, 'Ciapus');
+							addOption(subKategori, 'Kamasan');
+							addOption(subKategori, 'Kiangroke');
+							addOption(subKategori, 'Margahurip');
+							addOption(subKategori, 'Mekarjaya');
+							addOption(subKategori, 'Neglasari');
+							addOption(subKategori, 'Pasirmulya');
+							addOption(subKategori, 'Sindangpanon');
+							addOption(subKategori, 'Tarajusari');
+						} else if (kategori.value === 'PAMEUNGPEUK') {
+							addOption(subKategori, 'Bojongkunci');
+							addOption(subKategori, 'Bojongmanggu');
+							addOption(subKategori, 'Langonsari');
+							addOption(subKategori, 'Rancamulya');
+							addOption(subKategori, 'Rancatungku');
+							addOption(subKategori, 'Sukasari');
+						} else if (kategori.value === 'PANGALENGAN') {
+							addOption(subKategori, 'Banjarsari');
+							addOption(subKategori, 'Lamajang');
+							addOption(subKategori, 'Margaluyu');
+							addOption(subKategori, 'Margamekar');
+							addOption(subKategori, 'Margamukti');
+							addOption(subKategori, 'Margamulya');
+							addOption(subKategori, 'Pangalengan');
+							addOption(subKategori, 'Pulosari');
+							addOption(subKategori, 'Sukaluyu');
+							addOption(subKategori, 'Sukamanah');
+							addOption(subKategori, 'Tribaktimulya');
+							addOption(subKategori, 'Wanasuka');
+							addOption(subKategori, 'Warnasari');
+						} else if (kategori.value === 'ARJASARI') {
+							addOption(subKategori, 'Ancolmekar');
+							addOption(subKategori, 'Arjasari');
+							addOption(subKategori, 'Baros');
+							addOption(subKategori, 'Batukarut');
+							addOption(subKategori, 'Lebakwangi');
+							addOption(subKategori, 'Mangunjaya');
+							addOption(subKategori, 'Mekarjaya');
+							addOption(subKategori, 'Patrolsari');
+							addOption(subKategori, 'Pinggirsari');
+							addOption(subKategori, 'Rancakole');
+							addOption(subKategori, 'Wargaluyu');
+						} else if (kategori.value === 'CIMAUNG') {
+							addOption(subKategori, 'Campakamulya');
+							addOption(subKategori, 'Cikalong');
+							addOption(subKategori, 'Cimaung');
+							addOption(subKategori, 'Cipinang');
+							addOption(subKategori, 'Jagabaya');
+							addOption(subKategori, 'Malasari');
+							addOption(subKategori, 'Mekarsari');
+							addOption(subKategori, 'Pasirhuni');
+							addOption(subKategori, 'Sukamaju');
+							addOption(subKategori, 'Warjabakti');
+						} else if (kategori.value === 'CICALENGKA') {
+							addOption(subKategori, 'Babakan Peuteuy');
+							addOption(subKategori, 'Cicalengka Kulon');
+							addOption(subKategori, 'Cicalengka Wetan');
+							addOption(subKategori, 'Cikuya');
+							addOption(subKategori, 'Dampit');
+							addOption(subKategori, 'Margaasih');
+							addOption(subKategori, 'Nagrog');
+							addOption(subKategori, 'Narawita');
+							addOption(subKategori, 'Panenjoan');
+							addOption(subKategori, 'Tanjungwangi');
+							addOption(subKategori, 'Tenjolaya');
+							addOption(subKategori, 'Waluya');
+						} else if (kategori.value === 'NAGREG') {
+							addOption(subKategori, 'Bojong');
+							addOption(subKategori, 'Ciaro');
+							addOption(subKategori, 'Ciherang');
+							addOption(subKategori, 'Citaman');
+							addOption(subKategori, 'Ganjarsabar');
+							addOption(subKategori, 'Mandalawangi');
+							addOption(subKategori, 'Nagreg');
+							addOption(subKategori, 'Nagreg Kendan');
+						} else if (kategori.value === 'CIKANCUNG') {
+							addOption(subKategori, 'Cihanyir');
+							addOption(subKategori, 'Cikancung');
+							addOption(subKategori, 'Cikasungka');
+							addOption(subKategori, 'Ciluluk');
+							addOption(subKategori, 'Hegarmanah');
+							addOption(subKategori, 'Mandalasari');
+							addOption(subKategori, 'Mekarlaksana');
+							addOption(subKategori, 'Srirahayu');
+							addOption(subKategori, 'Tanjunglaya');
+						} else if (kategori.value === 'RANCAEKEK') {
+							addOption(subKategori, 'Bojongloa');
+							addOption(subKategori, 'Bojongsalam');
+							addOption(subKategori, 'Cangkuang');
+							addOption(subKategori, 'Haurpugur');
+							addOption(subKategori, 'Jelegong');
+							addOption(subKategori, 'Linggar');
+							addOption(subKategori, 'Nanjungmekar');
+							addOption(subKategori, 'Rancaekek Kulon');
+							addOption(subKategori, 'Rancaekek Wetan');
+							addOption(subKategori, 'Sangiang');
+							addOption(subKategori, 'Sukamanah');
+							addOption(subKategori, 'Sukamulya');
+							addOption(subKategori, 'Tegalsumedang');
+							addOption(subKategori, 'Rancaekek Kencana');
+						} else if (kategori.value === 'CIPARAY') {
+							addOption(subKategori, 'Babakan');
+							addOption(subKategori, 'Bumiwangi');
+							addOption(subKategori, 'Ciheulang');
+							addOption(subKategori, 'Cikoneng');
+							addOption(subKategori, 'Ciparay');
+							addOption(subKategori, 'Gunungleutik');
+							addOption(subKategori, 'Manggungharja');
+							addOption(subKategori, 'Mekarlaksana');
+							addOption(subKategori, 'Mekarsari');
+							addOption(subKategori, 'Pakutandang');
+							addOption(subKategori, 'Sagaracipta');
+							addOption(subKategori, 'Sarimahi');
+							addOption(subKategori, 'Serangmekar');
+							addOption(subKategori, 'Sumbersari');
+						} else if (kategori.value === 'PACET') {
+							addOption(subKategori, 'Cikawao');
+							addOption(subKategori, 'Cikitu');
+							addOption(subKategori, 'Cinanggela');
+							addOption(subKategori, 'Cipeujeuh');
+							addOption(subKategori, 'Girimulya');
+							addOption(subKategori, 'Mandalahaji');
+							addOption(subKategori, 'Maruyung');
+							addOption(subKategori, 'Mekarjaya');
+							addOption(subKategori, 'Mekarsari');
+							addOption(subKategori, 'Nagrak');
+							addOption(subKategori, 'Pangauban');
+							addOption(subKategori, 'Sukarame');
+							addOption(subKategori, 'Tanjungwangi');
+						} else if (kategori.value === 'KERTASARI') {
+							addOption(subKategori, 'Cibeureum');
+							addOption(subKategori, 'Cihawuk');
+							addOption(subKategori, 'Cikembang');
+							addOption(subKategori, 'Neglawangi');
+							addOption(subKategori, 'Resmitingal');
+							addOption(subKategori, 'Santosa');
+							addOption(subKategori, 'Sukapura');
+							addOption(subKategori, 'Tarumajaya');
+						} else if (kategori.value === 'BALEENDAH') {
+							addOption(subKategori, 'Bojongmalaka');
+							addOption(subKategori, 'Malakasari');
+							addOption(subKategori, 'Rancamanyar');
+							addOption(subKategori, 'Andir');
+							addOption(subKategori, 'Baleendah');
+							addOption(subKategori, 'Jelekong');
+							addOption(subKategori, 'Manggahang');
+							addOption(subKategori, 'Wargamekar');
+						} else if (kategori.value === 'MAJALAYA') {
+							addOption(subKategori, 'Biru');
+							addOption(subKategori, 'Bojong');
+							addOption(subKategori, 'Majakerta');
+							addOption(subKategori, 'Majalaya');
+							addOption(subKategori, 'Majasetra');
+							addOption(subKategori, 'Neglasari');
+							addOption(subKategori, 'Padamulya');
+							addOption(subKategori, 'Padaulun');
+							addOption(subKategori, 'Sukamaju');
+							addOption(subKategori, 'Sukamukti');
+							addOption(subKategori, 'Wangisagara');
+						} else if (kategori.value === 'SOLOKANJERUK') {
+							addOption(subKategori, 'Bojongemas');
+							addOption(subKategori, 'Cibodas');
+							addOption(subKategori, 'Langensari');
+							addOption(subKategori, 'Padamukti');
+							addOption(subKategori, 'Panyadap');
+							addOption(subKategori, 'Rancakasumba');
+							addOption(subKategori, 'Solokanjeruk');
+						} else if (kategori.value === 'PASEH') {
+							addOption(subKategori, 'Cigentur');
+							addOption(subKategori, 'Cijagra');
+							addOption(subKategori, 'Cipaku');
+							addOption(subKategori, 'Cipedes');
+							addOption(subKategori, 'Drawati');
+							addOption(subKategori, 'Karangtunggal');
+							addOption(subKategori, 'Loa');
+							addOption(subKategori, 'Mekarpawitan');
+							addOption(subKategori, 'Sindangsari');
+							addOption(subKategori, 'Sukamanah');
+							addOption(subKategori, 'Sukamantri');
+							addOption(subKategori, 'Tangsimekar');
+						} else if (kategori.value === 'IBUN') {
+							addOption(subKategori, 'Cibeet');
+							addOption(subKategori, 'Dukuh');
+							addOption(subKategori, 'Ibun');
+							addOption(subKategori, 'Karyalaksana');
+							addOption(subKategori, 'Laksana');
+							addOption(subKategori, 'Lampegan');
+							addOption(subKategori, 'Mekarwangi');
+							addOption(subKategori, 'Neglasari');
+							addOption(subKategori, 'Pangguh');
+							addOption(subKategori, 'Sudi');
+							addOption(subKategori, 'Talun');
+							addOption(subKategori, 'Tanggulun');
+						} else if (kategori.value === 'SOREANG') {
+							addOption(subKategori, 'Cingcin');
+							addOption(subKategori, 'Karamatmulya');
+							addOption(subKategori, 'Pamekaran');
+							addOption(subKategori, 'Panyirapan');
+							addOption(subKategori, 'Parungserab');
+							addOption(subKategori, 'Sadu');
+							addOption(subKategori, 'Sekarwangi');
+							addOption(subKategori, 'Soreang');
+							addOption(subKategori, 'Sukajadi');
+							addOption(subKategori, 'Sukanagara');
+						} else if (kategori.value === 'PASIRJAMBU') {
+							addOption(subKategori, 'Cibodas');
+							addOption(subKategori, 'Cikoneng');
+							addOption(subKategori, 'Cisondari');
+							addOption(subKategori, 'Cukanggenteng');
+							addOption(subKategori, 'Margamulya');
+							addOption(subKategori, 'Mekarmaju');
+							addOption(subKategori, 'Mekarsari');
+							addOption(subKategori, 'Pasirjambu');
+							addOption(subKategori, 'Sugihmukti');
+							addOption(subKategori, 'Tenjolaya');
+						} else if (kategori.value === 'CIWIDEY') {
+							addOption(subKategori, 'Ciwidey');
+							addOption(subKategori, 'Lebakmuncang');
+							addOption(subKategori, 'Nengkelan');
+							addOption(subKategori, 'Panundaan');
+							addOption(subKategori, 'Panyocokan');
+							addOption(subKategori, 'Rawabogo');
+							addOption(subKategori, 'Sukawening');
+						} else if (kategori.value === 'RANCABALI') {
+							addOption(subKategori, 'Alamendah');
+							addOption(subKategori, 'Cipelah');
+							addOption(subKategori, 'Indragiri');
+							addOption(subKategori, 'Patengan');
+							addOption(subKategori, 'Sukaresmi');
+						} else if (kategori.value === 'CANGKUANG') {
+							addOption(subKategori, 'Bandasari');
+							addOption(subKategori, 'Cangkuang');
+							addOption(subKategori, 'Ciluncat');
+							addOption(subKategori, 'Jatisari');
+							addOption(subKategori, 'Nagrak');
+							addOption(subKategori, 'Pananjung');
+							addOption(subKategori, 'Tanjungsari');
+						} else if (kategori.value === 'KUTAWARINGIN') {
+							addOption(subKategori, 'Buninagara');
+							addOption(subKategori, 'Cibodas');
+							addOption(subKategori, 'Cilame');
+							addOption(subKategori, 'Gajahmekar');
+							addOption(subKategori, 'Jatisari');
+							addOption(subKategori, 'Jelegong');
+							addOption(subKategori, 'Kopo');
+							addOption(subKategori, 'Kutawaringin');
+							addOption(subKategori, 'Padasuka');
+							addOption(subKategori, 'Pameuntasan');
+							addOption(subKategori, 'Sukamulya');
+						}
+
 					}
 
 					function addOption(selectElement, optionText) {
@@ -366,7 +702,6 @@
 						selectElement.add(option);
 					}
 				</script>
-
 				<h3 style="margin-top: 20px; margin-bottom: 20px;"><b><center>Masukan Perolehan Suara</center></b></h3>
 
 
